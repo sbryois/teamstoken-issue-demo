@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "teams-auth-issue-client-side-solution",
+    "id": "d04a2aff-e233-4d46-b53d-eb508fb1d809",
+    "version": "1.0.0.0",
+    "webApiPermissionRequests": [
+      {
+        "resource": "SPFxWebAPI",
+        "scope": "user_impersonation"
+      }
+    ],
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/teams-auth-issue.sppkg"
+  }
+}

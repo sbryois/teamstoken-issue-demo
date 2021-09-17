@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "teams-auth-issue-repro-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/teamsAuthIssueReproWp/TeamsAuthIssueReproWpWebPart.js",
+          "manifest": "./src/webparts/teamsAuthIssueReproWp/TeamsAuthIssueReproWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TeamsAuthIssueReproWpWebPartStrings": "lib/webparts/teamsAuthIssueReproWp/loc/{locale}.js"
+  }
+}
